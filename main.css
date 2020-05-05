@@ -19,11 +19,6 @@ a:hover {
   color: #ff0000;
 }
 
-a:after {
-  content: "↗";
-  font-size: 0.8em;
-}
-
 p {
   padding-left: 5%;
   padding-right: 5%
