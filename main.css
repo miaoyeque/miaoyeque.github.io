@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'AUTHENTICSans';
+  src: url('AUTHENTICSans-90.woff') format('woff'),
+       url('AUTHENTICSans-60.woff') format('woff');
+}
+
+body {
+  font-family: 'AUTHENTICSans', 'Helvetica', 'Arial', sans-serif;
+  font-size: 36pt;
+  line-height: 1.1em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+a:after {
+  content: "↗";
+  font-size: 0.8em;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%
+}
+
+span {
+  color: #ff0000;
+}
+
+@media only screen and (max-width: 860px) {
+  h1 {
+    font-size: 52pt;
+  }
+  body {
+    font-size: 28pt;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    font-size: 24pt;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 40pt;
+  }
+  body {
+    font-size: 24pt;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 28pt;
+  }
+  body {
+    font-size: 20pt;
+  }
+}
