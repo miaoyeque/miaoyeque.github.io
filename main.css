@@ -16,16 +16,20 @@ a {
 }
 
 a:hover {
-  color: #ff0000;
+  background-color: #ff0000;
 }
 
 p {
   padding-left: 5%;
-  padding-right: 5%
+  padding-right: 5%;
 }
 
-span {
+span.prompt {
   color: #ff0000;
+}
+
+span.arrow {
+  font-size: 28pt;
 }
 
 @media only screen and (max-width: 860px) {
