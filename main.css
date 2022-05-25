@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'AUTHENTICSans';
-  src: url('AUTHENTICSans-90.woff') format('woff'),
-       url('AUTHENTICSans-60.woff') format('woff');
+  font-family: 'diatype';
+  src: url('diatype.otf') format('opentype');
 }
 
 body {
-  font-family: 'AUTHENTICSans', 'Helvetica', 'Arial', sans-serif;
-  font-size: 36pt;
+  font-family: 'diatype', 'AUTHENTICSans', 'Arial', sans-serif;
+  font-size: 30pt;
   line-height: 1.1em;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 a:hover {
-  background-color: #ff0000;
+  background-color: #00a651;
 }
 
 p {
@@ -25,11 +26,11 @@ p {
 }
 
 span.prompt {
-  color: #ff0000;
+  color: #00a651;
 }
 
 span.arrow {
-  font-size: 28pt;
+  font-size: 26pt;
 }
 
 @media only screen and (max-width: 860px) {
@@ -39,11 +40,17 @@ span.arrow {
   body {
     font-size: 28pt;
   }
+  span.arrow {
+    font-size: 22pt;
+  }
 }
 
 @media only screen and (max-width: 700px) {
   body {
     font-size: 24pt;
+  }
+  span.arrow {
+    font-size: 16pt;
   }
 }
 
@@ -54,6 +61,9 @@ span.arrow {
   body {
     font-size: 24pt;
   }
+  span.arrow {
+    font-size: 16pt;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -62,5 +72,8 @@ span.arrow {
   }
   body {
     font-size: 20pt;
+  }
+  span.arrow {
+    font-size: 14pt;
   }
 }
