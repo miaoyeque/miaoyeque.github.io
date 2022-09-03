@@ -33,6 +33,14 @@ span.arrow {
   font-size: 26pt;
 }
 
+.colophon {
+  position: relative;
+  bottom: 0;
+  padding-top: 10%;
+  line-height: 1em;
+  font-size: 18pt;
+}
+
 @media only screen and (max-width: 860px) {
   h1 {
     font-size: 52pt;
@@ -43,6 +51,9 @@ span.arrow {
   span.arrow {
     font-size: 22pt;
   }
+  .colophon {
+    font-size: 16pt;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -51,6 +62,9 @@ span.arrow {
   }
   span.arrow {
     font-size: 16pt;
+  }
+  .colophon {
+    font-size: 14pt;
   }
 }
 
@@ -64,6 +78,9 @@ span.arrow {
   span.arrow {
     font-size: 16pt;
   }
+  .colophon {
+    font-size: 12pt;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -75,5 +92,8 @@ span.arrow {
   }
   span.arrow {
     font-size: 14pt;
+  }
+  .colophon {
+    font-size: 10pt;
   }
 }
