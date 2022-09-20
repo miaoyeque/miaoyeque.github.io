@@ -29,6 +29,14 @@ span.prompt {
   color: #00a651;
 }
 
+.transition {
+  color: #00a651;
+}
+
+.transition:hover {
+  background-color: black;
+}
+
 span.arrow {
   font-size: 26pt;
 }
@@ -39,6 +47,12 @@ span.arrow {
   padding-top: 10%;
   line-height: 1em;
   font-size: 18pt;
+}
+
+.work {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.1em;
 }
 
 @media only screen and (max-width: 860px) {
