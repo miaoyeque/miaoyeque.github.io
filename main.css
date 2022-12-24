@@ -5,9 +5,9 @@
 
 body {
   font-family: 'diatype', 'AUTHENTICSans', 'Arial', sans-serif;
-  font-size: 30pt;
+  font-size: 14pt;
   line-height: 1.1em;
-  padding: 5%;
+  padding: 2rem;
 }
 
 a {
@@ -16,16 +16,17 @@ a {
 }
 
 a:hover {
-  background-color: #00a651;
+  background-color: #1a5939;
+  color: #FFF;
 }
 
-p {
-  padding-left: 5%;
-  padding-right: 5%;
-}
 
 span.prompt {
-  color: #00a651;
+  color: #298C59;
+}
+
+.container {
+  max-width: 32rem;
 }
 
 .transition {
@@ -37,7 +38,7 @@ span.prompt {
 }
 
 span.arrow {
-  font-size: 26pt;
+  font-size: 10pt;
 }
 
 .colophon {
@@ -54,59 +55,11 @@ span.arrow {
   line-height: 1.1em;
 }
 
-@media only screen and (max-width: 860px) {
-  h1 {
-    font-size: 52pt;
-  }
+@media only screen and (max-width: 480px) {
   body {
-    font-size: 28pt;
-  }
-  span.arrow {
-    font-size: 22pt;
-  }
-  .colophon {
-    font-size: 16pt;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  body {
-    font-size: 24pt;
-  }
-  span.arrow {
-    font-size: 16pt;
-  }
-  .colophon {
-    font-size: 14pt;
-  }
-}
-
-@media only screen and (max-width: 620px) {
-  h1 {
-    font-size: 40pt;
-  }
-  body {
-    font-size: 24pt;
-  }
-  span.arrow {
-    font-size: 16pt;
-  }
-  .colophon {
     font-size: 12pt;
   }
-}
-
-@media only screen and (max-width: 480px) {
-  h1 {
-    font-size: 28pt;
-  }
-  body {
-    font-size: 20pt;
-  }
   span.arrow {
-    font-size: 14pt;
-  }
-  .colophon {
-    font-size: 10pt;
+    font-size: 8pt;
   }
 }
